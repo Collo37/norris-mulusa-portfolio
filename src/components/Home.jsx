@@ -95,9 +95,10 @@ const Section = styled.section`
       background-size: contain;
       .profile-image {
         object-fit: cover;
-        object-position: center;
+        object-position: left;
         width: 110%;
         height: 110%;
+        transform: scale(1.4);
       }
     }
   }
