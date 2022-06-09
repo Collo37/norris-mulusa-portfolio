@@ -42,7 +42,7 @@ export default function Home() {
 
 const Section = styled.section`
   background-image: url(${home});
-  bacground-color: "#b42727";
+  background-color: "#b42727";
   background-size: cover;
   min-height: 100vh;
   width: 100vw;
