@@ -1,18 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import { BsFacebook, BsTwitter, BsYoutube } from "react-icons/bs";
 import { useScroll } from "./useScroll";
 import { footerLogoAnimations } from "animations";
 import { motion } from "framer-motion";
 
-import Icon from "./Icon";
 
 function Footer() {
   const [element, controls] = useScroll();
-
-  const visitUrl = (link) => {
-    window.open(link);
-  }
 
   return (
     <Foot ref={element}>
@@ -26,9 +20,9 @@ function Footer() {
           duration: 0.8,
         }}
       >
-        <Icon clicked={() => visitUrl("https://twitter.com/norris_comedian")}><BsTwitter /></Icon>
-        <Icon clicked={() => visitUrl("https://www.facebook.com/comedian.norris.7")}><BsFacebook /></Icon>
-        <Icon clicked={() => visitUrl("https://www.youtube.com/channel/UCPgdUA6RvP8Yx1VpypJzCgg")}><BsYoutube /></Icon>
+        <a href="https://twitter.com/norris_comedian">Twitter</a>
+        <a href="https://www.facebook.com/norriskenya">Facebook</a>
+        <a href="https://www.youtube.com/channel/UCPgdUA6RvP8Yx1VpypJzCgg">YouTube</a>
       </motion.div>
     </Foot>
   );
@@ -44,6 +38,10 @@ const Foot = styled.footer`
   .footer__social__icons {
     display: flex;
     gap: 2rem;
+    a {
+      color: white;
+      text-decoration: none;
+    }
     svg {
       font-size: 1.4rem;
       cursor: pointer;
