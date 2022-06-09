@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import Title from "./Title";
-import placeholder from "assets/placeholder.png";
 import { motion } from "framer-motion";
 import { useScroll } from "./useScroll";
 import { portfolioAnimation } from "animations";
@@ -11,7 +10,6 @@ import Button from "./Button";
 import NorrisMulusa from "assets/Mulusa Norris on stage.jpg";
 import NorrisMulusa1 from "assets/Mulusa Norris.jpg";
 import NorrisMulusa2 from "assets/Norris Mulusa 2.jpg";
-import NorrisMulusa3 from "assets/Norris Mulusa 3.jpg";
 import NorrisMulusa4 from "assets/Norris Mulusa 4.jpeg";
 import NorrisMulusa5 from "assets/Norris Mulusa 5.jpeg";
 import NorrisMulusa6 from "assets/Norris Mulusa 6.jpeg";
@@ -39,7 +37,7 @@ function Portfolio() {
           }}
           whileInView={{ opacity: 1 }}
         >
-          <img src={NorrisMulusa} alt="placeholder" />
+          <img src={NorrisMulusa} alt="Norris Mulusa" />
         </motion.div>
         <motion.div
           className="child-two grid-box"
@@ -52,7 +50,7 @@ function Portfolio() {
           }}
           viewport={{ once: true }}
         >
-          <img src={NorrisMulusa2} alt="placeholder" />
+          <img src={NorrisMulusa2} alt="Norris Mulusa" />
         </motion.div>
         <motion.div
           className="child-three grid-box"
@@ -65,7 +63,7 @@ function Portfolio() {
           }}
           viewport={{ once: true }}
         >
-          <img src={NorrisMulusa7} alt="placeholder" />
+          <img src={NorrisMulusa7} alt="Norris Mulusa" />
         </motion.div>
         <motion.div
           className="child-four grid-box"
@@ -78,7 +76,7 @@ function Portfolio() {
           }}
           viewport={{ once: true }}
         >
-          <img src={NorrisMulusa5} alt="placeholder" />
+          <img src={NorrisMulusa5} alt="Norris Mulusa" />
         </motion.div>
         <motion.div
           className="child-five grid-box"
@@ -91,7 +89,7 @@ function Portfolio() {
           }}
           viewport={{ once: true }}
         >
-          <img src={NorrisMulusa4} alt="placeholder" />
+          <img src={NorrisMulusa4} alt="Norris Mulusa" />
         </motion.div>
         <motion.div
           className="child-six grid-box"
@@ -104,7 +102,7 @@ function Portfolio() {
           }}
           viewport={{ once: true }}
         >
-          <img src={NorrisMulusa2} alt="placeholder" />
+          <img src={NorrisMulusa2} alt="Norris Mulusa" />
         </motion.div>
         <motion.div
           className="child-seven grid-box"
@@ -117,7 +115,7 @@ function Portfolio() {
           }}
           viewport={{ once: true }}
         >
-          <img src={NorrisMulusa6} alt="placeholder" />
+          <img src={NorrisMulusa6} alt="Norris Mulusa" />
         </motion.div>
         <motion.div
           className="child-eight grid-box"
@@ -130,7 +128,7 @@ function Portfolio() {
           }}
           viewport={{ once: true }}
         >
-          <img src={NorrisMulusa1} alt="placeholder" />
+          <img src={NorrisMulusa1} alt="Norris Mulusa" />
         </motion.div>
       </div>
       <div className="portfolio-more">
