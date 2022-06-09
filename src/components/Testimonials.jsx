@@ -19,7 +19,7 @@ export default function Testimonials() {
       role: "Communication Expert",
       name: "Bushra Anne",
       review:
-        "One of the greatest comediand I've ever met",
+        "One of the greatest comedians I've ever met",
     },
     {
       role: "Student",

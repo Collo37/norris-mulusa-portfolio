@@ -27,7 +27,7 @@ function Footer() {
         }}
       >
         <Icon clicked={() => visitUrl("https://twitter.com/norris_comedian")}><BsTwitter /></Icon>
-        <Icon clicked={() => visitUrl("http://facebook.com")}><BsFacebook /></Icon>
+        <Icon clicked={() => visitUrl("https://www.facebook.com/comedian.norris.7")}><BsFacebook /></Icon>
         <Icon clicked={() => visitUrl("https://www.youtube.com/channel/UCPgdUA6RvP8Yx1VpypJzCgg")}><BsYoutube /></Icon>
       </motion.div>
     </Foot>
