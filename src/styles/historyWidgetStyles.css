@@ -11,8 +11,9 @@
 .history-widget-details {
     flex: 1;
     height: 100%;
-    color: var(--primary-color) ;
+    color: var(--primary-color);
     font-weight: 500;
+    padding: 10px;
 }
 
 .history-widget-pointer {

@@ -4,7 +4,6 @@ import { Typewriter } from 'react-simple-typewriter'
 import Navbar from "./Navbar";
 import Button from "./Button";
 
-
 import home from "assets/red-bg-1.jpg";
 import profileImage from "assets/Norris.png";
 
@@ -42,7 +41,7 @@ export default function Home() {
 
 const Section = styled.section`
   background-image: url(${home});
-  background-color: "#b42727";
+  background-color: #b42727;
   background-size: cover;
   min-height: 100vh;
   width: 100vw;
