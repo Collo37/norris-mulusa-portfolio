@@ -80,6 +80,7 @@ const Section = styled.section`
         height: 100px;
         font-size: 1.2rem;
         font-weith: 700;
+        color: var(--primary-color);
       }
     }
   }
