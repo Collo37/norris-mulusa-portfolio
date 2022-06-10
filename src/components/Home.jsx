@@ -79,8 +79,8 @@ const Section = styled.section`
       .subTitle {
         height: 100px;
         font-size: 1.2rem;
-        font-weith: 700;
         color: var(--primary-color);
+        font-weight: bold;
       }
     }
   }
